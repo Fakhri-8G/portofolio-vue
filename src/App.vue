@@ -1,15 +1,12 @@
 <script setup>
-  import Navbar from './components/Navbar.vue'
-
-  const name = 'Fakhri'
-  const role = 'Web Developer & RPL Student'
+import Navbar from './components/Navbar.vue'
+import Hero from './components/Hero.vue'
 </script>
 
 <template>
   <Navbar />
 
-  <main id="home">
-    <h1>Hi, I'm {{ name }}</h1>
-    <p>{{ role }}</p>
+  <main>
+    <Hero />
   </main>
 </template>
